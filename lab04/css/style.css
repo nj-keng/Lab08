@@ -1,0 +1,336 @@
+.pagewrap {
+  font-family: 'Niramit', sans-serif;
+  float: left;
+  background-color: rgb(242, 239, 239);
+  text-align: center;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+.top {
+  background-color: rgb(255, 255, 255);
+  margin-top: 2em;
+  width: 100%;
+  height: 3em;
+}
+
+.logo {
+  text-align: left;
+  position: absolute;
+  margin-top: -1.5em;
+}
+
+.logo img {
+  margin-left: .7em;
+  width: 8em;
+  height: auto;
+}
+
+.head_name {
+  float: left;
+  margin: 0em;
+  margin-left: 8em;
+}
+
+#name {
+  margin-top: 0;
+  padding: 0;
+}
+
+.links {
+  float: right;
+  clear: right;
+  margin: 0;
+  padding: 0;
+  margin-top: .5em;
+  width: 18em;
+  height: 2em;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-left: 0;
+  padding-right: 1em;
+}
+
+a:hover {
+  background-color: rgb(112, 111, 110);
+  color: rgb(255, 255, 255);
+}
+
+.link_1, .link_2 {
+  margin: 0;
+  width: 9em;
+  float: left;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+.mid {
+  text-align: center;
+  float: left;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+#overwatch {
+  font-size: 5em;
+}
+
+#blizzard {
+  font-size: 1.5em;
+}
+
+#overwatch, #blizzard {
+  padding: 0;
+  margin: 0;
+}
+
+.classes {
+  margin-top: 1.5em;
+  width: 100%;
+}
+
+.class_img {
+  margin-left: .5em;
+  width: 7em;
+  height: auto;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+.low {
+  float: left;
+  width: 100%;
+  height: auto;
+  background-color: rgb(242, 239, 239);
+}
+
+#label_1 {
+  float: left;
+  text-align: left;
+  padding: .5em;
+  font-size: 1em;
+  width: 100%;
+  clear: both;
+  margin: 0;
+  background-color: rgb(242, 239, 239);
+}
+
+.hero {
+  float: left;
+  height: auto;
+  margin: 2%;
+  width: 56%;
+  background-color: rgb(255, 255, 255);
+}
+
+.heroes {
+  margin: 1%;
+  padding: 0;
+  width: 45%;
+  height: auto;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.articles {
+  float: left;
+  height: auto;
+  margin: 2%;
+  width: 34%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+#label_2 {
+  float: left;
+  text-align: left;
+  padding: .5em;
+  font-size: 1em;
+  width: 100%;
+  clear: both;
+  margin: 0;
+  background-color: rgb(242, 239, 239);
+}
+
+.articles img {
+  float: left;
+  width: 40%;
+  height: auto;
+  margin-right: .5em;
+}
+
+.article_1, .article_2, .article_3 {
+  float: left;
+  padding: .5em;
+  text-align: left;
+}
+
+.article_3 {
+  padding-bottom: 2.5em;
+}
+
+.article_label {
+  padding-top: .5em;
+}
+
+#foot {
+  text-align: center;
+  font-size: .7em;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 800px) {
+  .head_name {
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 3.5em;
+  }
+
+  .logo {
+    text-align: left;
+    position: absolute;
+    margin-top: -1.5em;
+    margin-left: 40%
+  }
+
+  .links {
+    text-align: center;
+    width: 100%;
+    height: 2em;
+  }
+  .links{
+    text-align: center;
+  }
+
+  .link_1 {
+    float: left;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .link_2 {
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+  }
+
+  /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+  .mid_text {
+    margin-top: 1em;
+  }
+
+  .classes {
+    margin-top: 1.5em;
+    width: 100%;
+  }
+
+  .class_img {
+    margin-left: .5em;
+  }
+
+  /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+  .hero {
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 93%;
+  }
+
+  .articles {
+    text-align: center;
+    width: 93%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .article_label {
+    padding-top: 1.5em;
+    font-size: 1.3em;
+  }
+
+  #label_1, #label_2 {
+    text-align: center;
+  }
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 400px) {
+  .logo {
+    margin-left: 31%;
+  }
+
+  .head_name {
+    margin-top: 4em;
+    margin-left: 35%
+  }
+
+  .links {
+    float: left;
+    margin-top: 7em;
+    width: 95%.
+  }
+
+  .links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-left: 0;
+    padding-right: ;
+  }
+
+  .link_1, .link_2 {
+    float: left;
+    margin: 0;
+    padding-right: 0;
+    width: auto;
+  }
+
+  .link_1 {
+    margin-left: 12%;
+  }
+
+  .link_2 {
+    margin-right: auto;
+  }
+
+  /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+  .mid {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 1em;
+  }
+
+  #overwatch {
+    font-size: 4em;
+    margin-bottom: 0;
+  }
+
+  #blizzard {
+    margin-top: .5em;
+    font-size: 1em;
+  }
+
+  /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+  .low, .hero, .articles {
+    width: 100%;
+    min-width: none;
+  }
+
+  .hero, .articles {
+    width: 90%;
+  }
+
+  .article_label {
+    padding-top: 0;
+    font-size: 1em;
+  }
+
+  #label_1, #label_2 {
+    text-align: center;
+  }
+}
