@@ -1,0 +1,71 @@
+.page_wrapper{
+  background-color: rgb(238, 229, 179);
+}
+
+/* Page Title*/
+#page_title{
+  text-align: center;
+}
+
+/* Body Section */
+section{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  /* grid-gap: 1em; */
+  grid-template-columns: 30% auto;
+  border: 1px solid rgb(100, 109, 115)
+
+}
+
+/* Body Navigation Bar */
+nav {
+  display: table;
+  width: auto;
+  height: 10em;
+  border-right: 1px solid rgb(100, 109, 115);
+
+}
+
+nav ul{
+  display: table-row;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 0;
+  width: auto;
+  padding:1.5em;
+  text-align: center;
+  background-color: rgb(193, 155, 210);
+}
+
+nav li:hover{
+  background-color: rgb(55, 55, 55);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* Character Lists */
+#div_char_container{
+  display: grid;
+  grid-column-gap: auto;
+  grid-row-gap: 1em;
+  grid-template-columns: auto auto auto;
+  padding: 1em;
+  /* border: 1px solid rgb(100, 109, 115) */
+}
+
+.img_char{
+  display: block;
+  width: 5em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  clip-path: circle(50% at 50% 50%);
+  background-color: rgb(255, 255, 255);
+}
+
+.name_char{
+  text-align: center;
+}
