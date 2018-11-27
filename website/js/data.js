@@ -13,15 +13,16 @@ let powerChars =
   "<li><div class='div_char'><img src='../img/bowser.png' alt='test_image' class='img_char'>" +
   "<p class='name_char'>Bowser</p></div></li>" +
 
-  "<li><div class='div_char'><img src='../img/dk.png' alt='test_image' class='img_char'>" +
+  "<li><div class='div_char'><img src='../img/donkey kong.png' alt='test_image' class='img_char'>" +
   "<p class='name_char'>Donkey Kong</p></div></li>" +
 
-  "<li><div class='div_char'><img src='../img/ganondorf.png' alt='test_image' class='img_char'>" + "<p class='name_char'>Ganondorf</p></div></li>" +
+  "<li><div class='div_char'><img src='../img/ganondorf.png' alt='test_image' class='img_char'>" +
+  "<p class='name_char'>Ganondorf</p></div></li>" +
 
   "<li><div class='div_char'><img src='../img/roy.png' alt='test_image' class='img_char'>" +
   "<p class='name_char'>Roy</p></div></li>" +
 
-  "<li><div class='div_char'><img src='../img/drmario.png' alt='test_image' class='img_char'>" +
+  "<li><div class='div_char'><img src='../img/dr. mario.png' alt='test_image' class='img_char'>" +
   "<p class='name_char'>Dr.Mario</p></div></li>" +
 
   "<li><div class='div_char'><img src='../img/samus.png' alt='test_image' class='img_char'>" +
@@ -56,7 +57,7 @@ let controlChars =
 
   "</ul>";
 
-let relentlessOffenseChars = ["Mario", "Marth", "Fox", "Luigi", "Yoshi", "Falco", "Ice Climbers", "Dr.Mario", "Sheik"];
+let relentlessOffenseChars = ["Mario", "Marth", "Fox", "Luigi", "Yoshi", "Falco", "Ice Climbers", "Dr. Mario", "Sheik"];
 
 let recoveryCharacters = ["Jigglypuff", "Kirby", "Mewtwo", "Ice Climbers", "Pikachu", "Pichu", "Yoshi", "Peach", "Zelda"];
 
