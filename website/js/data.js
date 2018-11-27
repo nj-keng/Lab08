@@ -59,10 +59,9 @@ let controlChars =
 
 let relentlessOffenseChars = ["Mario", "Marth", "Fox", "Luigi", "Yoshi", "Falco", "Ice Climbers", "Dr. Mario", "Sheik"];
 
-let recoveryCharacters = ["Jigglypuff", "Kirby", "Mewtwo", "Ice Climbers", "Pikachu", "Pichu", "Yoshi", "Peach", "Zelda"];
-
+let recoveryCharacters = ["Jigglypuff", "Kirby", "Mewtwo", "Ice Climbers", "Pikachu", "Pichu", "Yoshi", "Peach", "Zelda"]
+    
 let beginnerFriendlyChars = ["Mario", "Link", "Kirby", "Pikachu", "Donkey Kong", "Yoshi", "Jigglypuff"];
-
 
 module.exports = {
   // HTML
