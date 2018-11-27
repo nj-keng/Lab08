@@ -1,5 +1,5 @@
 // Note: This is my character selection category variable containing all the cateogries that we are putting characters in.
-let quickAgilityChars = "<ul>" +
+let quickAgilityChars = "<ul id='container'>" +
 "<li><div class='div_char'><img src='../img/fox.png' alt='test_image' class='img_char'><p class='name_char'>Fox</p></div></li>" +
 "<li><div class='div_char'><img src='../img/sheik.png' alt='test_image' class='img_char'><p class='name_char'>Shiek</p></div></li>" +
 "<li><div class='div_char'><img src='../img/pikachu.png' alt='test_image' class='img_char'><p class='name_char'>Pikachu</p></div></li>" +
@@ -8,7 +8,7 @@ let quickAgilityChars = "<ul>" +
 "</ul>";
 
 let powerChars =
-  "<ul>" +
+  "<ul id='container'>" +
 
   "<li><div class='div_char'><img src='../img/bowser.png' alt='test_image' class='img_char'>" +
   "<p class='name_char'>Bowser</p></div></li>" +
@@ -30,7 +30,7 @@ let powerChars =
   "</ul>";
 
 let controlChars =
-  "<ul>" +
+  "<ul id='container'>" +
 
   "<li><div class='div_char'><img src='../img/samus.png' alt='test_image' class='img_char'>" +
   "<p class='name_char'>Samus</p></div></li>" +
@@ -56,11 +56,11 @@ let controlChars =
 
   "</ul>";
 
-let relentlessOffenseChars = ["Mario", "Marth", "Fox", "Luigi", "Yoshi", "Falco", "Ice Climbers", "Dr.Mario", "Sheik"]
+let relentlessOffenseChars = ["Mario", "Marth", "Fox", "Luigi", "Yoshi", "Falco", "Ice Climbers", "Dr.Mario", "Sheik"];
 
 let recoveryCharacters = ["Jigglypuff", "Kirby", "Mewtwo", "Ice Climbers", "Pikachu", "Pichu", "Yoshi", "Peach", "Zelda"]
     
-let beginnerFriendlyChars = ["Mario", "Link", "Kirby", "Pikachu", "Donkey Kong", "Yoshi", "Jigglypuff"]
+let beginnerFriendlyChars = ["Mario", "Link", "Kirby", "Pikachu", "Donkey Kong", "Yoshi", "Jigglypuff"];
 
 module.exports = {
   // HTML

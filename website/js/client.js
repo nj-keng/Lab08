@@ -85,13 +85,11 @@ console.log("in client");
       url: "/get-character",
       dataType: "json",
       type: "GET",
-      data: {
-        format: "offence-list"
-      },
+      data: {format: "offence-list"},
       success: function(data) {
         console.log("SUCCESS JSON:", data);
         var div = $("#div_char_container");
-        let htmlStr = "<ul>";
+        let htmlStr = "<ul id='container'>";
         for (let i = 0; i < data.length; i++) {
           htmlStr += "<li><div class='div_char'><img src='../img/" + data[i] + ".png' alt='test_image' class='img_char'><p class='name_char'>" + data[i] +"</p></div></li>";
         }
@@ -100,6 +98,7 @@ console.log("in client");
 
       },
       error: function(jqXHR, textStatus, errorThrown) {
+        console.log("Did not get the json");
         $("#div_char_container").text(jqXHR.statusText);
         console.log("ERROR:", jqXHR, textStatus, errorThrown);
       }
@@ -121,7 +120,7 @@ console.log("in client");
       success: function(data) {
         console.log("SUCCESS JSON:", data);
         var div = $("#div_char_container");
-        let htmlStr = "<ul>";
+        let htmlStr = "<ul id='container'>";
         for (let i = 0; i < data.length; i++) {
           htmlStr += "<li><div class='div_char'><img src='../img/" + data[i] + ".png' alt='test_image' class='img_char'><p class='name_char'>" + data[i] +"</p></div></li>";
         }
@@ -151,7 +150,7 @@ console.log("in client");
       success: function(data) {
         console.log("SUCCESS JSON:", data);
         var div = $("#div_char_container");
-        let htmlStr = "<ul>";
+        let htmlStr = "<ul id='container'>";
         for (let i = 0; i < data.length; i++) {
           htmlStr += "<li><div class='div_char'><img src='../img/" + data[i] + ".png' alt='test_image' class='img_char'><p class='name_char'>" + data[i] +"</p></div></li>";
         }
