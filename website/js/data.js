@@ -67,11 +67,11 @@ let controlChars =
     
 "</ul>";
 
-let relentlessOffenseChars = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+let relentlessOffenseChars = ["Mario", "Marth", "Fox", "Luigi", "Yoshi", "Falco", "Ice Climbers", "Dr.Mario", "Sheik"]
 
-let recoveryCharacters = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+let recoveryCharacters = ["Jigglypuff", "Kirby", "Mewtwo", "Ice Climbers", "Pikachu", "Pichu", "Yoshi", "Peach", "Zelda"]
     
-let beginnerFriendlyChars = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+let beginnerFriendlyChars = ["Mario", "Link", "Kirby", "Pikachu", "Donkey Kong", "Yoshi", "Jigglypuff"]
 
 module.exports = {
  getQuickAgilityChars: function () {
