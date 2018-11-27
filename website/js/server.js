@@ -8,7 +8,7 @@ const fs = require('fs');
 
 app.use('/js', express.static('../js'));
 app.use('/img', express.static('../img'));
-app.use('/css', sxpress.static('../css'));
+app.use('/css', express.static('../css'));
 
 app.get('/', function (req, res){
   let doc = fs.readFileSync('../html/index.html', 'utf8');
@@ -18,21 +18,42 @@ app.get('/', function (req, res){
   res.send(dom.serialize());
 });
 
+console.log("in server");
 // Getting Data
-app.get('/ajax-get-content', function (req, res) {
+app.get('/get-character', function (req, res) {
   let formatResponse = req.query['format'];
   let dataList=null;
 
-  if(formatResponse == 'html-list'){
-    res.setHeader("Conten-Type", "text/html");
-    // make a getHTML function in data.js
-    dataList = list.getHTML();
+
+  if(formatResponse == 'agility-list'){
+    res.setHeader("Content-Type", "text/html");
+    dataList = list.getQuickAgilityChars();
+    res.send(dataList);
+    console.log("agility");
+  }
+  else if(formatResponse == 'power-list'){
+    res.setHeader("Content-Type", "text/html");
+    dataList = list.getPowerChars();
     res.send(dataList);
   }
-  else if(formantResponse == 'json-list'){
+  else if(formatResponse == 'control-list'){
+    res.setHeader("Content-Type", "text/html");
+    dataList = list.getControlChars();
+    res.send(dataList);
+  }
+  else if(formantResponse == 'offence-list'){
     res.setHeader("Content-Type", "application/json");
-    // make a getJSON function in data.js
-    dataList = list.getJSON();
+    dataList = list.getRelentlessOffenseChars();
+    res.send(dataList);
+  }
+  else if(formantResponse == 'recovery-list'){
+    res.setHeader("Content-Type", "application/json");
+    dataList = list.getRecoveryChars();
+    res.send(dataList);
+  }
+  else if(formantResponse == 'beginner-list'){
+    res.setHeader("Content-Type", "application/json");
+    dataList = list.getBeginnerFriendlyChars();
     res.send(dataList);
   }
   else{
