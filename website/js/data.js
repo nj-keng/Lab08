@@ -58,15 +58,9 @@ let controlChars =
 
 let relentlessOffenseChars = ["Mario", "Marth", "Fox", "Luigi", "Yoshi", "Falco", "Ice Climbers", "Dr.Mario", "Sheik"]
 
-<<<<<<< HEAD
 let recoveryCharacters = ["Jigglypuff", "Kirby", "Mewtwo", "Ice Climbers", "Pikachu", "Pichu", "Yoshi", "Peach", "Zelda"]
     
 let beginnerFriendlyChars = ["Mario", "Link", "Kirby", "Pikachu", "Donkey Kong", "Yoshi", "Jigglypuff"]
-
-let recoveryCharacters = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
-
-let beginnerFriendlyChars = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
-
 
 module.exports = {
   // HTML

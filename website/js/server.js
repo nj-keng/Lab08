@@ -41,17 +41,17 @@ app.get('/get-character', function (req, res) {
     dataList = list.getControlChars();
     res.send(dataList);
   }
-  else if(formantResponse == 'offence-list'){
+  else if(formatResponse == 'offence-list'){
     res.setHeader("Content-Type", "application/json");
     dataList = list.getRelentlessOffenseChars();
     res.send(dataList);
   }
-  else if(formantResponse == 'recovery-list'){
+  else if(formatResponse == 'recovery-list'){
     res.setHeader("Content-Type", "application/json");
     dataList = list.getRecoveryChars();
     res.send(dataList);
   }
-  else if(formantResponse == 'beginner-list'){
+  else if(formatResponse == 'beginner-list'){
     res.setHeader("Content-Type", "application/json");
     dataList = list.getBeginnerFriendlyChars();
     res.send(dataList);
