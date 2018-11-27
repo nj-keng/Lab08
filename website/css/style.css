@@ -27,11 +27,11 @@ nav {
 
 }
 
-nav ul{
+#nav_side_container{
   display: table-row;
 }
 
-nav li {
+.nav_side {
   list-style-type: none;
   margin: 0;
   width: auto;
@@ -40,20 +40,28 @@ nav li {
   background-color: rgb(193, 155, 210);
 }
 
-nav li:hover{
+.nav_side:hover{
   background-color: rgb(55, 55, 55);
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
 /* Character Lists */
-#div_char_container{
+
+/* #div_char_container{
   display: grid;
   grid-column-gap: auto;
   grid-row-gap: 1em;
   grid-template-columns: auto auto auto;
   padding: 1em;
-  /* border: 1px solid rgb(100, 109, 115) */
+}*/
+#container{
+  list-style-type: none;
+  display: grid;
+  grid-column-gap: auto;
+  grid-row-gap: 1em;
+  grid-template-columns: auto auto auto;
+  padding: 1em;
 }
 
 .img_char{
