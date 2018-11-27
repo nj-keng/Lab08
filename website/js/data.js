@@ -74,14 +74,33 @@ let recoveryCharacters = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Sa
 let beginnerFriendlyChars = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 
 module.exports = {
- getHTML: function () {
-     console.log("called: getHTML");
-     // Note: this could be from a DB, for now it's just hard-coded
-     return characterCategories;
+ getQuickAgilityChars: function () {
+     console.log("called: getQuickAgilityChars");
+     return quickAgilityChars;
  },
- getJSON: function () {
-     console.log("called: getJSON");
-     // Note: this could be from a DB, for now it's just hard-coded
-     return someOtherData;
- }
+    
+getPowerChars: function () {
+     console.log("called: getPowerChars");
+     return powerChars;
+ },
+    
+getControlChars: function () {
+     console.log("called: getControlChars");
+     return controlChars;
+ },
+    
+getRelentlessOffenseChars: function () {
+     console.log("called: getRelentlessOffenseChars");
+     return relentlessOffenseChars;
+ },
+
+getRecoveryChars: function () {
+     console.log("called: getRecoveryChars");
+     return recoveryCharacters;
+ },
+
+getBeginnerFriendlyChars: function () {
+    console.log("called: getBeginnerFriendlyChars");
+    return beginnerFriendlyChars;
+}
 };
