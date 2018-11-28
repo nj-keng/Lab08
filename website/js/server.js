@@ -9,6 +9,7 @@ const fs = require('fs');
 app.use('/js', express.static('../js'));
 app.use('/img', express.static('../img'));
 app.use('/css', express.static('../css'));
+app.use('/font', express.static('../font'));
 
 app.get('/', function (req, res){
   let doc = fs.readFileSync('../html/index.html', 'utf8');

@@ -1,6 +1,6 @@
 @font-face{
-    font-family: 'SmashFont';
-    src: url('../font/smashfont.ttf');
+    font-family: SmashFont;
+    src: url(../font/smashfont.ttf);
 }
 
 .page_wrapper{
@@ -21,12 +21,31 @@
     background-color: aqua;
     display: grid;
     align-content: center;
+    float: left;
+    margin-left: 3em;
 }
 
 /* The img file for Smash Logo */
-#smashlogo img {
+#div_smashlogo img {
     width: 6em;
     height: 6em;
+    filter: brightness(0%);
+}
+
+/* Div for Smash Title Header */
+#div_smashtitle {
+    width: 70%;
+    height: 8em;
+    float: left;
+    display: grid;
+    align-content: center;
+    background-color: blue;
+}
+
+#div_smashtitle h1 {
+    font-size: 35pt;
+    font-family: SmashFont;
+    margin-left: 0.3em;
 }
 
 /* Page Title*/
