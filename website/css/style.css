@@ -1,6 +1,10 @@
 @font-face{
-    font-family: 'SmashFont';
-    src: url('../font/smashfont.ttf');
+    font-family: SmashFont;
+    src: url(../font/smashfont.ttf);
+}
+
+body{
+  font-family: SmashFont; 
 }
 
 .page_wrapper{
@@ -24,7 +28,7 @@
 }
 
 /* The img file for Smash Logo */
-#smashlogo img {
+#div_smashlogo img {
     width: 6em;
     height: 6em;
 }
