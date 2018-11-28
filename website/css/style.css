@@ -1,5 +1,32 @@
+@font-face{
+    font-family: 'SmashFont';
+    src: url('../font/smashfont.ttf');
+}
+
 .page_wrapper{
   background-color: rgb(238, 229, 179);
+}
+
+/* Top Bar */
+#div_top_bar {
+    width: 100%;
+    height: 8em;
+    background-color: rgb(255, 0, 0);
+}
+
+/* Div for Smash Logo */
+#div_smashlogo {
+    width: 6%;
+    height: 8em;
+    background-color: aqua;
+    display: grid;
+    align-content: center;
+}
+
+/* The img file for Smash Logo */
+#smashlogo img {
+    width: 6em;
+    height: 6em;
 }
 
 /* Page Title*/
