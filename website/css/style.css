@@ -1,7 +1,16 @@
-@font-face{
+@font-face {
     font-family: SmashFont;
     src: url(../font/smashfont.ttf);
+}
 
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../font/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: EBGaramond;
+    src: url(../font/EBGaramond-Medium.ttf);
 }
 
 .page_wrapper{
@@ -60,6 +69,7 @@
 #page_title{
   text-align: center;
     color: rgb(255, 255, 255);
+    font-family: EBGaramond;
 }
 
 /* Body Section */
@@ -101,6 +111,7 @@ nav {
     border: white solid 3px;
 background-image: url(../img/charactercategory.png);
     filter: brightness(200%);
+    font-family: RobotoSlab;
 }
 
 .nav_side:hover{
@@ -130,6 +141,7 @@ background-color: rgb(95, 100, 109);
   padding: 1em;
 }
 
+/* Class for character images */
 .img_char{
   display: block;
   width: 5em;
@@ -140,6 +152,17 @@ background-color: rgb(95, 100, 109);
   background-color: rgb(255, 255, 255);
 }
 
+/* Class for character names */
 .name_char{
   text-align: center;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    font-family: EBGaramond;
+}
+
+/* Lights up when you hover over character name */
+.name_char:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px white;
+    background-image: url(../img/hover.png);
 }
