@@ -118,6 +118,7 @@ background-image: url(../img/charactercategory.png);
   background-color: rgb(193, 155, 210);
     background-image: url(../img/hover.png);
     filter: brightness(90%);
+    text-shadow: 3px 3px 3px white;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
@@ -155,14 +156,15 @@ background-color: rgb(95, 100, 109);
 /* Class for character names */
 .name_char{
   text-align: center;
-    color: white;
-    text-shadow: black 2px 2px 2px;
+    color: rgb(255, 215, 0);
+    text-shadow: black 3px 3px 3px;
     font-family: EBGaramond;
+    font-size: 18pt;
 }
 
 /* Lights up when you hover over character name */
 .name_char:hover {
     color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 3px 3px 3px white;
     background-image: url(../img/hover.png);
 }
