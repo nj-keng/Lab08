@@ -35,7 +35,6 @@
     align-content: center;
     float: left;
     margin-left: 22em;
-    background-color: orange;
 }
 
 /* The img file for Smash Logo */
@@ -52,7 +51,6 @@
     float: left;
     display: grid;
     align-content: center;
-    background-color: blue;
 }
 
 /* Super Smash Bros Title */
@@ -80,11 +78,10 @@
 
 /* Div for Social Media Icons */
 #div_navbar {
-    width: 22%;
+    width: 50%;
     height: 2em;
     float: right;
     margin-top: -4.1em;
-    background-color: greenyellow;
     display: inline-block;
     text-align: right;
 }
@@ -189,7 +186,7 @@ background-color: rgb(0, 204, 204);
 /* Class for character names */
 .name_char{
   text-align: center;
-    color: rgb(233, 0, 0);
+    color: rgb(255, 255, 255);
     text-shadow: black 2px 2px 2px;
     font-family: EBGaramond;
     font-size: 18pt;
@@ -208,91 +205,118 @@ background-color: rgb(0, 204, 204);
 
  /* Media queries for 1600px */ 
 @media screen and (max-width: 1600px) {
+    
+}
 
-
-/*
+ /* Media queries for 1500px */ 
+@media screen and (max-width: 1500px) {
     #div_smashlogo {
-        margin-left: -10.5em;
+        margin-left: 10em;
     }
-*/
-
     
     #div_smashtitle {
-        width: 60%;
+        margin-left: 1em;
     }
     
-/*
-    #div_navbar {
-        width: 22%;
-        background-color: cyan;
+}
+
+ /* Media queries for 1300px */ 
+@media screen and (max-width: 1300px) {
+    #div_smashlogo {
+        margin-left: 1em;
     }
-*/
+    
+    #div_smashtitle {
+        margin-left: 1em;
+        width: 90%;
+    }
+    
 }
 
 /* Media queries for 1200px */
 @media screen and (max-width: 1200px) {
-    #div_smashlogo {
-        margin-left: 6.5em;
+    
+    #div_smashtitle h1 {
+        margin-left: 0.5em;
     }
     
-    #div_smashtitle {
-        width: 80%;
+}
 
-    }
+/* Media queries for 1000px */
+@media screen and (max-width: 1000px) {
     
     #div_smashtitle h1 {
         margin-left: 1em;
+        text-align: center;
     }
     
-    #div_navbar {
-        width: 18%;
+    #div_smashtitle {
+        width: 90%;
     }
+    
+}
+
+@media screen and (max-width: 850px) {
+    
+    #div_smashtitle {
+        width: 70%;
+    }
+    
 }
 
 /* Media queries for 800px */
 @media screen and (max-width: 800px) {
     #div_smashlogo {
-        margin-left: 3.5em;
+        margin-left: -1em;
     }
     
     #div_smashtitle h1 {
         text-align: center;
-        margin-left: 0.5em;
+/*        background-color: aqua;*/
+    }
+    
+    #div_smashtitle {
+        width: 90%;
     }
     
     #div_navbar {
-        width: 27%;
-        margin-left: -1em;
-        float: right;
+        display: none;
     }
+    
 }
 
-/* Media queries for 400px */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
+    
     #div_smashlogo {
-        background-color: red;
-        margin-left: 9em;
+        margin-left: 13em;
     }
     
-    #div_smashtitle h1 {
-        margin-top: 4em;
-        margin-left: 1em;
-    }
-    
-    #div_char_container {
-        margin-top: 7em;
-        margin-left: 1em;
-    }
-    
-    nav {
-        margin-top: 10.5em;
-    }
-    
-    #page_body {
-        margin-top: 2em;
+    #div_smashtitle {
+        width: 100%;
+        margin-top: 2.5em;
+        margin-left: -2em;
     }
     
     #div_titlebar {
         display: none;
     }
+    
+    nav {
+        margin-top: 2em;
+    }
+    
+    #div_char_container {
+        margin-top: 1.35em;
+    }
+}
+
+
+ /*Media queries for 400px */
+
+@media screen and (max-width: 500px) {
+    
+    #div_smashlogo {
+        margin-left: 9em;
+    }
+ 
 }
