@@ -148,6 +148,7 @@ background-image: url(../img/charactercategory.png);
 
 /* Images for categories */
 .categoryimages {
+    transform: scale(1.1, 1.1);
     width: 3em;
     height; 3em;
     margin: auto;
