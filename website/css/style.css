@@ -1,108 +1,106 @@
 @font-face {
-    font-family: SmashFont;
-    src: url(../font/smashfont.ttf);
+  font-family: SmashFont;
+  src: url(../font/smashfont.ttf);
 }
 
 @font-face {
-    font-family: RobotoSlab;
-    src: url(../font/RobotoSlab-Regular.ttf);
+  font-family: RobotoSlab;
+  src: url(../font/RobotoSlab-Regular.ttf);
 }
 
 @font-face {
-    font-family: EBGaramond;
-    src: url(../font/EBGaramond-Medium.ttf);
+  font-family: EBGaramond;
+  src: url(../font/EBGaramond-Medium.ttf);
 }
 
-.page_wrapper{
+.page_wrapper {
   background-color: rgb(0, 0, 0);
-    background-image: url(../img/pagewrapperbackground.png);
+  background-image: url(../img/pagewrapperbackground.png);
 }
 
 /* Top Bar */
 #div_top_bar {
-    width: 100%;
-    height: 8em;
-/*    background-color: rgb(128, 0, 0);*/
-    background-image: url(../img/bannerbackground.png);
-    border-bottom: white solid 3px;
+  width: 100%;
+  height: 8em;
+  /*    background-color: rgb(128, 0, 0);*/
+  background-image: url(../img/bannerbackground.png);
+  border-bottom: white solid 3px;
 }
 
 /* Div for Smash Logo */
 #div_smashlogo {
-    width: 6%;
-    height: 8em;
-    display: grid;
-    align-content: center;
-    float: left;
-    margin-left: 22em;
+  width: 6%;
+  height: 8em;
+  display: grid;
+  align-content: center;
+  float: left;
+  margin-left: 22em;
 }
 
 /* The img file for Smash Logo */
 #div_smashlogo img {
-    width: 6em;
-    height: 6em;
-    filter: brightness(900%);
+  width: 6em;
+  height: 6em;
+  filter: brightness(900%);
 }
 
 /* Div for Smash Title Header */
 #div_smashtitle {
-    width: 70%;
-    height: 8em;
-    float: left;
-    display: grid;
-    align-content: center;
+  width: 70%;
+  height: 8em;
+  float: left;
+  display: grid;
+  align-content: center;
 }
 
 /* Super Smash Bros Title */
-
 #div_smashtitle h1 {
-    font-size: 35pt;
-    font-family: SmashFont;
-    margin-left: 0.3em;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 3px black;
+  font-size: 35pt;
+  font-family: SmashFont;
+  margin-left: 0.3em;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px black;
 }
 
 /* Div for "Choose your playstyle!" heading */
 #div_titlebar {
-    width: 100%;
-    height: 4em;
+  width: 100%;
+  height: 4em;
 }
 
 /* Page Title*/
-#page_title{
+#page_title {
   text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: EBGaramond;
+  color: rgb(255, 255, 255);
+  font-family: EBGaramond;
 }
 
 /* Div for Social Media Icons */
 #div_navbar {
-    width: 50%;
-    height: 2em;
-    float: right;
-    margin-top: -4.1em;
-    display: inline-block;
-    text-align: right;
+  width: 50%;
+  height: 2em;
+  float: right;
+  margin-top: -4.1em;
+  display: inline-block;
+  text-align: right;
 }
 
 /* Icons for Social Media */
 .navicons {
-    width: 2em;
-    height: 2em;
-    padding: 0.5em;
-    text-align: right;
+  width: 2em;
+  height: 2em;
+  padding: 0.5em;
+  text-align: right;
 }
 
 /* Body Section */
-section{
+section {
   width: 90%;
   margin: 0 auto;
   display: grid;
   /* grid-gap: 1em; */
   grid-template-columns: 30% auto;
-border: 1px solid rgb(0, 0, 0);
-
+  border: 1px solid rgb(0, 0, 0);
 }
 
 /* Body Navigation Bar */
@@ -110,12 +108,11 @@ nav {
   display: table;
   width: auto;
   height: 10em;
-/*  border-right: 1px solid rgb(100, 109, 115);*/
-
+  /*  border-right: 1px solid rgb(100, 109, 115);*/
 }
 
 /* Container holding the li elements */
-#nav_side_container{
+#nav_side_container {
   display: table-row;
 }
 
@@ -124,60 +121,61 @@ nav {
   list-style-type: none;
   margin: 0;
   width: auto;
-    height: 4em;
+  height: 4em;
   padding: 0.5em;
   text-align: center;
-    display: grid;
-    align-content: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    font-size: 18pt;
-    border: white solid 3px;
-background-image: url(../img/charactercategory.png);
-    font-family: RobotoSlab;
+  display: grid;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-size: 18pt;
+  border: white solid 3px;
+  background-image: url(../img/charactercategory.png);
+  font-family: RobotoSlab;
 }
 
-.nav_side:hover{
+.nav_side:hover {
   background-color: rgb(193, 155, 210);
-    background-image: url(../img/hover.png);
-    filter: brightness(90%);
-    text-shadow: 3px 3px 3px white;
+  background-image: url(../img/hover.png);
+  filter: brightness(90%);
+  text-shadow: 3px 3px 3px white;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
 /* Images for categories */
 .categoryimages {
-    transform: scale(1.1, 1.1);
-    width: 3em;
-    height; 3em;
-    margin: auto;
-    float: left;
+  transform: scale(1.1, 1.1);
+  width: 3em;
+  height;
+  3em;
+  margin: auto;
+  float: left;
 }
 
 /* Character Lists */
-#div_char_container{
-background-color: rgb(0, 204, 204);
-    background-image: url(../img/charactercontainer.png);
-    font-size: 18pt;
-    border: 3px solid rgb(255, 255, 255);
-
+#div_char_container {
+  background-color: rgb(0, 204, 204);
+  background-image: url(../img/charactercontainer.png);
+  font-size: 18pt;
+  border: 3px solid rgb(255, 255, 255);
 }
 
-#container{
+#container {
   list-style-type: none;
   display: grid;
-  grid-column-gap: auto;
+  grid-column-gap: 1em;
   grid-row-gap: 1em;
   grid-template-columns: auto auto auto;
   padding: 1em;
 }
 
 /* Class for character images */
-.img_char{
+.img_char {
   display: block;
   width: 5em;
   height: auto;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   clip-path: circle(50% at 50% 50%);
@@ -185,139 +183,147 @@ background-color: rgb(0, 204, 204);
 }
 
 /* Class for character names */
-.name_char{
+.name_char {
   text-align: center;
-    color: rgb(255, 255, 255);
-    text-shadow: black 2px 2px 2px;
-    font-family: EBGaramond;
-    font-size: 18pt;
+  color: rgb(255, 255, 255);
+  text-shadow: black 2px 2px 2px;
+  font-family: EBGaramond;
+  font-size: 18pt;
+}
+
+#div_char_container li {
+  border-radius: 20px;
+  background-color: rgba(150, 150, 150, 0.67);
 }
 
 /* Lights up when you hover over character */
-.div_char:hover {
-    color: rgb(0, 0, 0);
-    background-image: url(../img/hover.png);
+#div_char_container li:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  /* background-image: url(../img/hover.png); */
+  box-shadow: 0px 1px 24px 15px rgba(187, 187, 187, 0.83);
 }
 
-/* Lights up when you hover over character name */
-.name_char:hover {
-    color: rgb(0, 0, 0);
-}
+/* Media queries for 1600px */
+@media screen and (max-width: 1600px) {}
 
- /* Media queries for 1600px */ 
-@media screen and (max-width: 1600px) {
-    
-}
-
- /* Media queries for 1500px */ 
+/* Media queries for 1500px */
 @media screen and (max-width: 1500px) {
-    #div_smashlogo {
-        margin-left: 10em;
-    }
-    
-    #div_smashtitle {
-        margin-left: 1em;
-    }
-    
+  #div_smashlogo {
+    margin-left: 10em;
+  }
+
+  #div_smashtitle {
+    margin-left: 1em;
+  }
 }
 
- /* Media queries for 1300px */ 
+/* Media queries for 1300px */
 @media screen and (max-width: 1300px) {
-    #div_smashlogo {
-        margin-left: 1em;
-    }
-    
-    #div_smashtitle {
-        margin-left: 1em;
-        width: 90%;
-    }
-    
+  #div_smashlogo {
+    margin-left: 1em;
+  }
+
+  #div_smashtitle {
+    margin-left: 1em;
+    width: 90%;
+  }
 }
 
 /* Media queries for 1200px */
 @media screen and (max-width: 1200px) {
-    
-    #div_smashtitle h1 {
-        margin-left: 0.5em;
-    }
-    
+  #div_smashtitle h1 {
+    margin-left: 0.5em;
+  }
 }
 
 /* Media queries for 1000px */
 @media screen and (max-width: 1000px) {
-    
-    #div_smashtitle h1 {
-        margin-left: 1em;
-        text-align: center;
-    }
-    
-    #div_smashtitle {
-        width: 90%;
-    }
-    
+  #div_smashtitle h1 {
+    margin-left: 1em;
+    text-align: center;
+  }
+
+  #div_smashtitle {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 850px) {
-    
-    #div_smashtitle {
-        width: 70%;
-    }
-    
+  #div_smashtitle {
+    width: 70%;
+  }
 }
 
 /* Media queries for 800px */
 @media screen and (max-width: 800px) {
-    #div_smashlogo {
-        margin-left: -1em;
-    }
-    
-    #div_smashtitle h1 {
-        text-align: center;
-/*        background-color: aqua;*/
-    }
-    
-    #div_smashtitle {
-        width: 90%;
-    }
-    
-    #div_navbar {
-        display: none;
-    }
-    
+  #div_smashlogo {
+    margin-left: -1em;
+  }
+
+  #div_smashtitle h1 {
+    text-align: center;
+    /*        background-color: aqua;*/
+  }
+
+  #div_smashtitle {
+    width: 90%;
+  }
+
+  #div_navbar {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    
-    #div_smashlogo {
-        margin-left: 13em;
-    }
-    
-    #div_smashtitle {
-        width: 100%;
-        margin-top: 2.5em;
-        margin-left: -2em;
-    }
-    
-    #div_titlebar {
-        display: none;
-    }
-    
-    nav {
-        margin-top: 2em;
-    }
-    
-    #div_char_container {
-        margin-top: 1.35em;
-    }
+  #div_smashlogo {
+    margin-left: 13em;
+  }
+
+  #div_smashtitle {
+    width: 100%;
+    margin-top: 2.5em;
+    margin-left: -2em;
+  }
+
+  #div_titlebar {
+    display: none;
+  }
+
+  nav {
+    margin-top: 2em;
+  }
+
+  #div_char_container {
+    margin-top: 1.35em;
+  }
 }
 
-
- /*Media queries for 400px */
-
+/*Media queries for 400px */
 @media screen and (max-width: 500px) {
-    
-    #div_smashlogo {
-        margin-left: 9em;
-    }
- 
+  #div_smashlogo {
+    margin-left: 9em;
+  }
+}
+
+/* Banner Animations */
+.top_banner {
+  overflow: hidden;
+}
+
+.banner_container {
+  background: url("../img/banner.jpg") repeat-x;
+  height: 220px;
+  width: 1000%;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
 }
