@@ -353,9 +353,9 @@ nav {
 
 /* Standard syntax */
 @keyframes example {
-  0%   {left:0px; top:0px;}
-  25%  {left:780px; top:300px;}
-  50%  {left:0px; top:500px;}
-  75%  {left:500px; top:620px;}
-  100% {left:300px; top:0px;}
+  0%   {left:0%; top: 0%;}
+  25%  {left: 80%; top:80%;}
+  50%  {left: 50%; top: 0%;}
+  75%  {left:0%; top:60%;}
+  100% {left:75%; top: 0%;}
 }
