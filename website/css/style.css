@@ -41,7 +41,7 @@
 #div_smashlogo img {
   width: 6em;
   height: 6em;
-  filter: brightness(900%);
+  filter: brightness(10000%);
 }
 
 /* Div for Smash Title Header */
