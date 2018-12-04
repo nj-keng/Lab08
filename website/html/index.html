@@ -59,6 +59,12 @@
   </div>
   <script type='text/javascript' src='../js/jquery.js'></script>
   <script src="../js/client.js"></script>
+  <script type="text/javascript">
+    $(".nav_side").click("mouseover", function(e) {
+      $(".nav_side").css("background-image", "url(../img/charactercategory.png)");
+      $(this).css("background-image", "url(../img/hover.png)");
+    });
+  </script>
 </body>
 
 </html>
