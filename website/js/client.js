@@ -1,5 +1,5 @@
 $(document).ready(function() {
-console.log("in client");
+// console.log("in client");
   $('#agility').click(function(e) {
 
     // don't allow the anchor to visit the link
@@ -11,7 +11,7 @@ console.log("in client");
       type: "GET",
       data: {format: "agility-list"},
       success: function(data) {
-        console.log("SUCCESS HTML:", data);
+        // console.log("SUCCESS HTML:", data);
         $("#div_char_container").html(data);
 
       },
@@ -35,7 +35,7 @@ console.log("in client");
         format: "power-list"
       },
       success: function(data) {
-        console.log("SUCCESS HTML:", data);
+        // console.log("SUCCESS HTML:", data);
         $("#div_char_container").html(data);
 
       },
@@ -60,7 +60,7 @@ console.log("in client");
         format: "control-list"
       },
       success: function(data) {
-        console.log("SUCCESS HTML:", data);
+        // console.log("SUCCESS HTML:", data);
         $("#div_char_container").html(data);
 
       },
@@ -87,7 +87,7 @@ console.log("in client");
       type: "GET",
       data: {format: "offence-list"},
       success: function(data) {
-        console.log("SUCCESS JSON:", data);
+        // console.log("SUCCESS JSON:", data);
         var div = $("#div_char_container");
         let htmlStr = "<ul id='container'>";
         for (let i = 0; i < data.length; i++) {
@@ -118,7 +118,7 @@ console.log("in client");
         format: "recovery-list"
       },
       success: function(data) {
-        console.log("SUCCESS JSON:", data);
+        // console.log("SUCCESS JSON:", data);
         var div = $("#div_char_container");
         let htmlStr = "<ul id='container'>";
         for (let i = 0; i < data.length; i++) {
@@ -148,7 +148,7 @@ console.log("in client");
         format: "beginner-list"
       },
       success: function(data) {
-        console.log("SUCCESS JSON:", data);
+        // console.log("SUCCESS JSON:", data);
         var div = $("#div_char_container");
         let htmlStr = "<ul id='container'>";
         for (let i = 0; i < data.length; i++) {
